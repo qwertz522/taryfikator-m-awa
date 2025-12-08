@@ -57,6 +57,9 @@ transition:background-color 0.5s;
 .red{
     color:red;
 }
+.green{
+    color:green;
+}
 
 table,td,th{
     border-collapse: collapse;
