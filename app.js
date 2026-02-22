@@ -276,4 +276,31 @@ function Suszenie(){
   reset(); 
 
 }
+function setActive(button){
+document.querySelectorAll(".wybierz").forEach(btn=>{
+btn.classList.remove("active");
+});
+button.classList.add("active");
+}
+
+function KK(){
+document.getElementById("KodeksK").style.display="block";
+document.getElementById("KodeksW").style.display="none";
+document.getElementById("suszenie").style.display="none";
+setActive(event.target);
+}
+
+function KW(){
+document.getElementById("KodeksK").style.display="none";
+document.getElementById("KodeksW").style.display="block";
+document.getElementById("suszenie").style.display="none";
+setActive(event.target);
+}
+
+function Suszenie(){
+document.getElementById("KodeksK").style.display="none";
+document.getElementById("KodeksW").style.display="none";
+document.getElementById("suszenie").style.display="block";
+setActive(event.target);
+}
 
