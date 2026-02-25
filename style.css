@@ -67,6 +67,18 @@ margin-bottom:10px;
 color:#3b82f6;
 }
 
+.normalny{
+color:#FFFFFF
+}
+
+.sad{
+color:#CF2929
+}
+
+.pokrzywdzony{
+color:#4169E1
+}
+
 pre{
 white-space:pre-wrap;
 font-family:inherit;
@@ -160,25 +172,6 @@ margin:15px 0;
 }
 
 @media(max-width:768px){
-
-.kodeksy{
-padding:15px;
-}
-
-.wybierz{
-padding:10px 12px;
-font-size:14px;
-}
-
-#obliczanie{
-padding:15px;
-}
-
-.title{
-font-size:18px;
-}
-
-}
 
 
 
