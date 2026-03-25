@@ -57,8 +57,8 @@ function calculateTotal() {
     if(wyrok > 5400){
         error1dis.innerHTML = "!Uwaga aktualny czas wyroku wynosi ponad 1,5 godziny zastanów się przed wystawieniem wyroku!"
     }
-    if(grzywna > 500000){
-      error2dis.innerHTML = "!Uwaga aktualny mandat wynosi ponad pół miliona zastanów się przed wystawieniem go!"
+    if(grzywna > 25000){
+      error2dis.innerHTML = "!Uwaga aktualny mandat wynosi ponad 25 tysięcy zastanów się przed wystawieniem go!"
     }}
     else if(KWW == 0 && KKK == 0 && KDD== 0){
       let predkosc = document.getElementById('predkosc').value;
