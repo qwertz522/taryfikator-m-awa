@@ -54,11 +54,11 @@ function calculateTotal() {
     powodgg.value  = powod;
     czasgg.value  = wyrok;
     grzywnagg.value  = grzywna;
-    if(wyrok > 6000){
-        error1dis.innerHTML = "!Uwaga maksymalny czas wyroku to XXXXX sec.!"
+    if(wyrok > 5400){
+        error1dis.innerHTML = "!Uwaga aktualny czas wyroku wynosi ponad 1,5 godziny zastanów się przed wystawieniem wyroku!"
     }
-    if(grzywna > 10000){
-      error2dis.innerHTML = "!Uwaga maksymalny mandat to XXXXXX PLN!"
+    if(grzywna > 1000000){
+      error2dis.innerHTML = "!Uwaga aktualny mandat wynosi ponad milion zastanów się przed wystawieniem go!"
     }}
     else if(KWW == 0 && KKK == 0 && KDD== 0){
       let predkosc = document.getElementById('predkosc').value;
